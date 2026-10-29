@@ -1,5 +1,7 @@
 # Dockvim
 
+![Dockvim](assets/header_dockvim.svg)
+
 TUI minimalista de panel único para administrar contenedores Docker y proyectos Docker Compose, escrita en Go con Bubble Tea y Lip Gloss. Usa la CLI `docker`, no el SDK.
 
 ## Requisitos
