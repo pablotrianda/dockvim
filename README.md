@@ -35,7 +35,6 @@ sudo install -m 0755 dockvim /usr/local/bin/dockvim
 | `Tab` | Alternar Contenedores / Compose |
 | `/` | Buscar por nombre; `Enter` confirma, `Esc` cancela |
 | `l` | Logs en vivo del contenedor seleccionado |
-| `L` | Últimas 100 líneas de logs en el panel derecho |
 | `e` | Abrir `sh` interactivo en el contenedor |
 | `s` | Iniciar contenedor |
 | `x` | Detener contenedor (confirmación) |
