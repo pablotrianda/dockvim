@@ -14,16 +14,14 @@ TUI minimalista de panel único para administrar contenedores Docker y proyectos
 
 ## Ejecutar
 
-```bash
-git clone <tu-repositorio>
-cd dockvim
-go mod tidy
-go run ./cmd/dockvim
-```
+Descargar el binario precompilado desde [Releases](https://github.com/pablotrianda/dockvim/releases).
 
 Compilar e instalar:
 
 ```bash
+git clone https://github.com/pablotrianda/dockvim
+cd dockvim
+go mod tidy
 go build -o dockvim ./cmd/dockvim
 sudo install -m 0755 dockvim /usr/local/bin/dockvim
 ```
